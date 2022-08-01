@@ -24,7 +24,7 @@ fs.readdir(directoryPath, function (err, files) {
                             {
                                 "properties": {
                                     "version": {
-                                        "const": "v0.12.0"
+                                        "const": schema_file.replace(".json", "")
                                     }
                                 }
                             },
