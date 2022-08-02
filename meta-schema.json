@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/apollographql/apollo-schemas/tree/main/meta.schema.json",
+  "$id": "https://github.com/apollographql/apollo-json-schemas/tree/main/meta.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "The meta schema for Apollo versioned schemas.",
   "type": "object",
