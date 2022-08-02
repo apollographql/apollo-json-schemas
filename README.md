@@ -1,6 +1,6 @@
 # Apollo Schemas
 
-Repository of Apollo json schemas for use with https://www.schemastore.org/.
+Repository of Apollo [JSON Schemas](https://json-schema.org/) for use with https://www.schemastore.org/.
 
 ## Development
 
@@ -10,14 +10,14 @@ Use the following directory layout:
 /
 ├─ meta-schema.json       // static
 ├─ <product>/             
-│  ├─ meta-schmea.json    // generated
+│  ├─ meta-schema.json    // generated
 │  ├─ schemas/            
 │  │  ├─ <version>.json
 ```
 
 Where:
-* &lt;product&gt; - is the name of the product.
-* &lt;version&gt;.json - is a schema for a version of the product.
+* `<product>` - is the name of the product.
+* `<version>.json` - is a schema for a version of the product.
 
-Adding new schemas in the appropriate location will cause the meta-schema.json for that project to be updated.
+Adding new schemas in the appropriate location will cause the `meta-schema.json` for that project to be updated.
 
