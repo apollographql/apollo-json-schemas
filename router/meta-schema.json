@@ -1,6 +1,6 @@
 {
-  "$id": "https://github.com/apollographql/apollo-schemas/tree/main/router/meta-schema.json",
-  "$schema": "https://github.com/apollographql/apollo-schemas/tree/main/meta-schema.json",
+  "$id": "https://github.com/apollographql/apollo-json-schemas/tree/main/router/meta-schema.json",
+  "$schema": "https://github.com/apollographql/apollo-json-schemas/tree/main/meta-schema.json",
   "title": "All router config versions",
   "type": "object",
   "oneOf": [
@@ -14,7 +14,7 @@
           }
         },
         {
-          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-schemas/main/router/schemas/v0.10.0.json"
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.10.0.json"
         }
       ]
     },
@@ -28,7 +28,7 @@
           }
         },
         {
-          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-schemas/main/router/schemas/v0.11.0.json"
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.11.0.json"
         }
       ]
     },
@@ -42,7 +42,7 @@
           }
         },
         {
-          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-schemas/main/router/schemas/v0.12.0.json"
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.12.0.json"
         }
       ]
     },
@@ -56,7 +56,7 @@
           }
         },
         {
-          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-schemas/main/router/schemas/v0.9.5.json"
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.9.5.json"
         }
       ]
     }
