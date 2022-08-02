@@ -31,6 +31,20 @@
           "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.12.0.json"
         }
       ]
+    },
+    {
+      "allOf": [
+        {
+          "properties": {
+            "version": {
+              "const": "v0.12.0_betelgeuse_985"
+            }
+          }
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.12.0_betelgeuse_985.json"
+        }
+      ]
     }
   ]
 }
