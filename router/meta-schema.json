@@ -9,6 +9,20 @@
         {
           "properties": {
             "version": {
+              "const": "router_v0.12.0_946"
+            }
+          }
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/router_v0.12.0_946.json"
+        }
+      ]
+    },
+    {
+      "allOf": [
+        {
+          "properties": {
+            "version": {
               "const": "v0.10.0"
             }
           }
