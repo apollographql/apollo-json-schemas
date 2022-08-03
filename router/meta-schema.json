@@ -9,20 +9,6 @@
         {
           "properties": {
             "version": {
-              "const": "v0.12.0-test"
-            }
-          }
-        },
-        {
-          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.12.0-test.json"
-        }
-      ]
-    },
-    {
-      "allOf": [
-        {
-          "properties": {
-            "version": {
               "const": "v0.12.0"
             }
           }
@@ -37,12 +23,12 @@
         {
           "properties": {
             "version": {
-              "const": "v0.12.0_betelgeuse_985"
+              "const": "v0.14.0"
             }
           }
         },
         {
-          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.12.0_betelgeuse_985.json"
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/router/schemas/v0.14.0.json"
         }
       ]
     }
