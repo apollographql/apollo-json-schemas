@@ -1,0 +1,22 @@
+{
+  "$id": "https://github.com/apollographql/apollo-json-schemas/tree/main/betelgeuse/meta-schema.json",
+  "$schema": "https://github.com/apollographql/apollo-json-schemas/tree/main/meta-schema.json",
+  "title": "All router config versions",
+  "type": "object",
+  "oneOf": [
+    {
+      "allOf": [
+        {
+          "properties": {
+            "version": {
+              "const": "v0.12.0_1000"
+            }
+          }
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/betelgeuse/schemas/v0.12.0_1000.json"
+        }
+      ]
+    }
+  ]
+}
