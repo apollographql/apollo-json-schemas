@@ -219,6 +219,20 @@
         {
           "properties": {
             "version": {
+              "const": "1.4.0_4208"
+            }
+          }
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/apollographql/apollo-json-schemas/main/betelgeuse/schemas/1.4.0_4208.json"
+        }
+      ]
+    },
+    {
+      "allOf": [
+        {
+          "properties": {
+            "version": {
               "const": "v0.12.0_1000"
             }
           }
