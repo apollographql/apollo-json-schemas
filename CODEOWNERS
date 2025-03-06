@@ -1,4 +1,4 @@
-* @apollographql/betelgeuse @apollographql/polaris
+* @apollographql/betelgeuse @apollographql/router-core
 
 /betelgeuse/ @apollographql/betelgeuse
-/router/ @apollographql/polaris
+/router/ @apollographql/router-core
