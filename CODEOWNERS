@@ -1,4 +1,4 @@
-* @apollographql/runtime-readiness @apollographql/graphos
+* @apollographql/runtime-readiness @apollographql/router-core
 
 /betelgeuse/ @apollographql/runtime-readiness
-/router/ @apollographql/graphos
+/router/ @apollographql/router-core
